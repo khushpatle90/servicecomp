@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bd1e0d2897.js" crossorigin="anonymous"></script>
+    <title>ServiceComponent</title>
+</head>
+<body class="">
+
+    <div class="md:flex flex-wrap justify-evenly bg-white pt-2 pb-2 px-10 hidden  "> 
+        <!--option-->
+        <div id="dropdownButton">
+           <div  onclick="toggleDropdown()" class="bg-white  border-4 cursor-pointer">Diet,Food & Fitness<i class="fa-solid fa-caret-down ms-1"></i></div>  
+    
+          <div id="dropdown" class=" bg-white hidden">
+            <div class=" bg-white mt-2 border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">account</div>
+            <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">setting</div>
+            <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">about</div>
+            <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">help</div>
+            <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">####</div>
+          </div>
+        </div>
+        <!--option-->
+        <div id="dropdownButton1">
+            <div onclick="toggleDropdown1()" class="bg-white  border-4 cursor-pointer">Skin & Hair Care<i class="fa-solid fa-caret-down ms-1"></i></div>  
+     
+           <div id="dropdown1" class=" bg-white hidden">
+             <div class=" bg-white mt-2 border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">account</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">setting</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">about</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">help</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">####</div>
+           </div>
+         </div>
+         <!--option-->
+        <div id="dropdownButton2">
+            <div onclick="toggleDropdown2()" class="bg-white  border-4 cursor-pointer">Health Conditions<i class="fa-solid fa-caret-down ms-1"></i></div>  
+     
+           <div id="dropdown2" class=" bg-white hidden">
+             <div class=" bg-white mt-2 border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">account</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">setting</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">about</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">help</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">####</div>
+           </div>
+         </div>
+         <!--option-->
+        <div id="dropdownButton3">
+            <div onclick="toggleDropdown3()" class="bg-white  border-4 cursor-pointer">Pregnancy,kids & Parenting <i class="fa-solid fa-caret-down ms-1"></i></div>  
+     
+           <div id="dropdown3" class=" bg-white hidden">
+             <div class=" bg-white mt-2 border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">account</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">setting</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">about</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">help</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">####</div>
+           </div>
+         </div>
+         <!--option-->
+        <div id="dropdownButton4">
+            <div onclick="toggleDropdown4()" class="bg-white  border-4 cursor-pointer">Women's Health<i class="fa-solid fa-caret-down ms-1"></i></div>  
+     
+           <div id="dropdown4" class=" bg-white hidden">
+             <div class=" bg-white mt-2 border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">account</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">setting</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">about</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">help</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">####</div>
+           </div>
+         </div>
+         <!--option-->
+        <div id="dropdownButton5">
+            <div onclick="toggleDropdown5()" class="bg-white  border-4 cursor-pointer">Sexual Wellness <i class="fa-solid fa-caret-down ms-1 "></i></div>  
+     
+           <div id="dropdown5" class=" bg-white hidden">
+             <div class=" bg-white mt-2 border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">account</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">setting</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">about</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">help</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">####</div>
+           </div>
+         </div>
+         <!--option-->
+        <div id="dropdownButton6">
+            <div onclick="toggleDropdown6()" class="bg-white  border-4 cursor-pointer">many More <i class="fa-solid fa-caret-down ms-1"></i></div>  
+     
+           <div id="dropdown6" class=" bg-white hidden">
+             <div class=" bg-white mt-2 border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">account</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">setting</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">about</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">help</div>
+             <div class=" bg-white border-4 text-center hover:border-gray-400 hover:bg-yellow-100 cursor-pointer">####</div>
+           </div>
+         </div>
+    </div>
+    <!--toggle button-->
+    <div  id="tgbutton" class="md:hidden bg-white">
+      <a onclick="tgbt()" class="text-4xl" href="#">&#8801;</a>
+      </div>
+
+  <!--our Services-->
+  <div class="h-auto w-100 flex flex-wrap flex-col items-center text-center pt-10 bg-yellow-100">
+    <div class="w-full h-auto flex flex-wrap flex-col items-center">
+        <p class="text-indigo-800 font-bold text-3xl md:text-4xl text-center ">"Our Services"</p>
+        <div class="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded-2xl md:mt-4 mb-12"></div>
+    </div>
+    <div class="w-full justify-evenly flex flex-wrap">
+        <div class="w-64 flex flex-col items-center mb-12">
+        <img class="fa-solid fa-book-bookmark w-14 h-14 rounded-2xl" src="data:image/png;base64,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" alt="doctor_img">
+        <p class="text-xl font-bold text-slate-900">100,000+ verified doctord</p>
+        <p class="text-sm font-bold text-gray-500">All doctors on Lybrate go througn a stringent verification process</p>
+        </div>
+        <div class="w-64 flex flex-col items-center mb-12">
+            <img class="fa-solid fa-book-bookmark w-14 h-14 rounded-2xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStNbVhFAGjY2Uj9FEFLvXA942ZhEzABRCFnA&usqp=CAU" alt="heart_img">
+            <p class="text-xl font-bold text-slate-900">24*7 access to healthcare</p>
+            <p class="text-sm font-bold text-gray-500">Easy access to the best doctors anytime,anywhere</p>
+        </div>
+        <div class="w-64 flex flex-col items-center mb-12">
+            <img class="fa-solid fa-book-bookmark w-14 h-14 rounded-2xlxl" src="data:image/png;base64,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" alt="money_in_hand">
+            <p class="text-xl font-bold text-slate-900">Save time & money</p>
+            <p class="text-sm font-bold text-gray-500">Save upto 70% in time and money spent for consulation</p>
+        </div>
+        <div class="w-64 flex flex-col items-center mb-12">
+          <img class="fa-solid fa-book-bookmark w-14 h-14 rounded-2xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjjBOLrj7-2ZdR2Q64-fzpL2qpFocVeA6pLQ&usqp=CAU" alt="">
+          <p class="text-xl font-bold text-slate-900">100% care guaranteed</p>
+          <p class="text-sm font-bold text-gray-500">we"ll refund your money if you're not satisfied with our services</p>
+      </div>
+    </div>
+</div>
+
+<script>
+    function toggleDropdown(){
+        let dropdown = document.querySelector('#dropdownButton #dropdown');
+        dropdown.classList.toggle("hidden");
+    }
+    function toggleDropdown1(){
+        let dropdown = document.querySelector('#dropdownButton1 #dropdown1');
+        dropdown1.classList.toggle("hidden");
+    }
+    function toggleDropdown2(){
+        let dropdown = document.querySelector('#dropdownButton2 #dropdown2');
+        dropdown2.classList.toggle("hidden");
+    }
+    function toggleDropdown3(){
+        let dropdown = document.querySelector('#dropdownButton3 #dropdown3');
+        dropdown.classList.toggle("hidden");
+    }
+    function toggleDropdown4(){
+        let dropdown = document.querySelector('#dropdownButton4 #dropdown4');
+        dropdown.classList.toggle("hidden");
+    }
+    function toggleDropdown5(){
+        let dropdown = document.querySelector('#dropdownButton5 #dropdown5');
+        dropdown.classList.toggle("hidden");
+    }
+    function toggleDropdown6(){
+        let dropdown = document.querySelector('#dropdownButton6 #dropdown6');
+        dropdown.classList.toggle("hidden");
+    }
+</script>     
+      
+</body>
+</html>
